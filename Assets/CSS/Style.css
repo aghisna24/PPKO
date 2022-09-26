@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +13,10 @@
   a:link button{
     text-decoration: none;
     color: #fff;
+  }
+
+  li{
+    list-style-type:none ;
   }
   
   html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
@@ -130,6 +134,76 @@
 
     color: black;
   }
+
+  section#footer{
+    background: linear-gradient(0deg, #1AA37A, #1AA37A), #1AA37A;
+    padding-top: 72px;
+  }
+
+  section#footer h1{
+    margin-top: 24px;
+    max-width: 260px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.065em;
+
+    color: #FFFFFF;
+  }
+
+  section#footer .container-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+  }
+
+  section#footer .container-nav .menu-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+  }
+
+  section#footer .container-nav .menu-nav h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+  }
+
+  section#footer .container-nav .menu-nav li{
+    margin-bottom: 16px;
+  }
+
+  section#footer .container-nav .menu-nav li a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    
+    
+    color: #FFFFFF;
+    
+  }
+
+  section#footer .container-nav .additional ul{
+    list-style-image: url('Assets/Images/Location.png');
+  }
+
+  section#footer .container-nav .additional ul li{
+    list-style-image: url('Assets/Images/Location.png');
+  }
+
 
   section#main-banner{
     margin-top: 200px;
